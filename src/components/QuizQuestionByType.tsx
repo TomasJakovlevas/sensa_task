@@ -2,13 +2,13 @@
 
 import { SingleOption } from './Options/SingleOption';
 import { MultiOption } from './Options/MultiOption';
-import { AnswerType, BaseAnswer, OptionType } from '@/types';
+import { AnswerType, BaseAnswer, OptionType, OptionTypes } from '@/types';
 import { InputOptions } from './Options/InputOptions';
 import { InfoOption } from './Options/InfoOption';
 
 type QuizQuestionByTypeProps = {
   id: string;
-  type: 'single-option' | 'multiple-options' | 'info' | 'input-options';
+  type: OptionTypes;
   inputs?: { type: 'number' | 'text'; label: string; value: string }[];
   options?: OptionType[];
   content?: string;

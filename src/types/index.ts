@@ -1,9 +1,15 @@
+export type OptionTypes =
+  | 'single-option'
+  | 'multiple-options'
+  | 'info'
+  | 'input-options';
+
 export type BaseQuestionType = {
   id: string;
-  type: 'single-option' | 'multiple-options' | 'info' | 'input-options';
   extra?: boolean;
   label: string;
   subHeading?: string;
+  type: OptionTypes;
 };
 
 export type OptionsQuestionType = BaseQuestionType & {

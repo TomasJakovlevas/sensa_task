@@ -1,4 +1,4 @@
-import { BaseAnswer, OptionType } from '@/types';
+import { BaseAnswer } from '@/types';
 import { useState } from 'react';
 import { Input } from '@/components/Input';
 import { Button } from '../Button';
