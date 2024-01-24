@@ -1,0 +1,261 @@
+[
+  {
+    "id": "primary-goal",
+    "label": "What is your primary goal?",
+    "type": "single-option",
+    "options": [
+      {
+        "id": "1",
+        "label": "Losing Weight",
+        "value": "losing-weight"
+      },
+      {
+        "id": "2",
+        "label": "Improve specific body areas",
+        "value": "improve-body",
+        "hasExtraQuestion": "improve-body"
+      },
+      {
+        "id": "3",
+        "label": "Gain Muscle",
+        "value": "gain-muscle"
+      },
+      {
+        "id": "4",
+        "label": "Develop Healthy Habits",
+        "value": "develop-healthy-habits"
+      }
+    ]
+  },
+  {
+    "id": "improve-body",
+    "label": "Select body areas you would like to improve:",
+    "type": "multiple-options",
+    "extra": true,
+    "options": [
+      {
+        "id": "1",
+        "label": "Breast form",
+        "value": "breast-form"
+      },
+      {
+        "id": "2",
+        "label": "Arms",
+        "value": "arms"
+      },
+      {
+        "id": "3",
+        "label": "Belly",
+        "value": "belly"
+      },
+      {
+        "id": "4",
+        "label": "Buttocks",
+        "value": "buttocks"
+      },
+      {
+        "id": "5",
+        "label": "Leg and Thighs",
+        "value": "leg-and-thighs"
+      }
+    ]
+  },
+  {
+    "id": "back-pain",
+    "label": "Do you suffer from back pain?",
+    "type": "single-option",
+    "options": [
+      {
+        "id": "1",
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "id": "2",
+        "label": "No",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": "concerns",
+    "label": "Concerns you have faced after pregnancy:",
+    "type": "multiple-options",
+    "options": [
+      {
+        "id": "1",
+        "label": "Anxiety or depression",
+        "value": "anx"
+      },
+      {
+        "id": "2",
+        "label": "Face skin problems",
+        "value": "face"
+      },
+      {
+        "id": "3",
+        "label": "Weak hair or hair loss",
+        "value": "hair"
+      },
+      {
+        "id": "4",
+        "label": "Loose skin or strech marks",
+        "value": "nails"
+      }
+    ]
+  },
+  {
+    "id": "excercising",
+    "label": "How do you feel about excercising with your baby?",
+    "type": "single-option",
+    "options": [
+      {
+        "id": "1",
+        "label": "I would love to!",
+        "value": "love"
+      },
+      {
+        "id": "2",
+        "label": "I would like to try",
+        "value": "try"
+      },
+      {
+        "id": "3",
+        "label": "I am better on my own",
+        "value": "hair"
+      }
+    ]
+  },
+  {
+    "id": "diastasis",
+    "label": "Do you suffer from DIASTASIS RECTI?",
+    "subHeading": "Diastasis recti is the partial or complete separation of the rectus abdominis, or “six-pack” muscles, which meet at the midline of your stomach.",
+    "type": "single-option",
+    "options": [
+      {
+        "id": "1",
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "id": "2",
+        "label": "No",
+        "value": false
+      },
+      {
+        "id": "3",
+        "label": "Not sure",
+        "value": "undefined"
+      }
+    ]
+  },
+  {
+    "id": "workouts",
+    "label": "Select type of workouts you like:",
+    "type": "multiple-options",
+    "options": [
+      {
+        "id": "1",
+        "label": "Flexibility",
+        "value": "flex"
+      },
+      {
+        "id": "2",
+        "label": "Aerobic",
+        "value": "aeoro"
+      },
+      {
+        "id": "3",
+        "label": "Strength",
+        "value": "strength"
+      },
+      {
+        "id": "4",
+        "label": "Others",
+        "value": "others"
+      },
+      {
+        "id": "5",
+        "label": "I don’t like workouts",
+        "value": "nope"
+      }
+    ]
+  },
+  {
+    "id": "breasfeeding",
+    "label": "Are you currently breasfeeding?",
+    "type": "single-option",
+    "options": [
+      {
+        "id": "1",
+        "label": "Yes",
+        "value": true
+      },
+      {
+        "id": "2",
+        "label": "No",
+        "value": false
+      }
+    ]
+  },
+  {
+    "id": "did-you-know",
+    "label": "Did you know?",
+    "subHeading": "Low impact exercises are completely safe during breastfeeding and do not affect the milk supply or taste.",
+    "type": "info",
+    "content": "lowImpactExercises"
+  },
+  {
+    "id": "what-food",
+    "label": "What foods is your breasfed baby sensitive to?",
+    "type": "multiple-options",
+    "options": [
+      {
+        "id": "1",
+        "label": "Lactose",
+        "value": "lactose"
+      },
+      {
+        "id": "2",
+        "label": "Eggs",
+        "value": "eggs"
+      },
+      {
+        "id": "3",
+        "label": "Nuts",
+        "value": "nuts"
+      },
+      {
+        "id": "4",
+        "label": "Soy",
+        "value": "soy"
+      },
+      {
+        "id": "5",
+        "label": "Gluten",
+        "value": "gluten"
+      },
+      {
+        "id": "6",
+        "label": "Fish",
+        "value": "fish"
+      },
+      {
+        "id": "7",
+        "label": "Shellfish",
+        "value": "shellfish"
+      },
+      {
+        "id": "8",
+        "label": "None of the above",
+        "value": "none"
+      }
+    ]
+  },
+  {
+    "id": "how-young",
+    "label": "How young you are?",
+    "type": "input-options",
+    "inputs": [{ "type": "number", "label": "Age", "value": "" }]
+  }
+]
